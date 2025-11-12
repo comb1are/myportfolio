@@ -29,7 +29,7 @@ export const Projects = () => {
               </div>
               <div className="flex justify-between items-center mt-4 ">
                 <a
-                  href="https://fr1sb.github.io/myportfolio/"
+                  href="https://comb1are.github.io/myportfolio/"
                   className=" text-blue-400 hover:text-blue-300 transition-colors"
                 >
                   View Project{" "}
@@ -53,7 +53,7 @@ export const Projects = () => {
               </div>
               <div className="flex justify-between items-center mt-4 ">
                 <a
-                  href="https://fr1sb.github.io/Delizioso/"
+                  href="https://comb1are.github.io/Delizioso/"
                   className=" text-blue-400 hover:text-blue-300 transition-colors"
                 >
                   View Project{" "}
@@ -77,7 +77,7 @@ export const Projects = () => {
               </div>
               <div className="flex justify-between items-center mt-4 ">
                 <a
-                  href="#"
+                  href="https://comb1are.github.io/Weather/"
                   className=" text-blue-400 hover:text-blue-300 transition-colors"
                 >
                   View Project{" "}
@@ -85,10 +85,10 @@ export const Projects = () => {
               </div>
             </div>
             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,2246,0.2)] transition-all">
-              <h3 className="text-xl font-bold mb-2">In developing</h3>
-              <p className="text-gray-400 mb-4">In developing</p>
+              <h3 className="text-xl font-bold mb-2">RailTrack</h3>
+              <p className="text-gray-400 mb-4">The landing page with modern desing uses the most popular and technology libraries</p>
               <div className="flex flex-wrap gap-2 mb-4">
-                {["Technology", "Technology", "Technology", "Technology"].map(
+                {["TypeScript", "Tailwindcss", "React", "Prisma" ,"Supabase"].map(
                   (tech, key) => (
                     <span
                       key={key}
@@ -101,7 +101,7 @@ export const Projects = () => {
               </div>
               <div className="flex justify-between items-center mt-4 ">
                 <a
-                  href="#"
+                  href="https://github.com/comb1are/railtrack"
                   className=" text-blue-400 hover:text-blue-300 transition-colors"
                 >
                   View Project{" "}
